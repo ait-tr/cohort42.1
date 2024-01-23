@@ -16,7 +16,7 @@
 ```
 import java.util.Scanner;
 
-public class СкуфеуScanner {
+public class CreateScanner {
   public static void main(String[] args) {
     Scanner scanner; // объявление переменной, очень похоже на int x;
     scanner = new Scanner(System.in); // создать экземпляр сканнера и указать источник данных
