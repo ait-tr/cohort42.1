@@ -3,7 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
+    "code/src/lesson6/Lesson6.java",
+    "code/src/lesson6/Calculator.java",
+    "code/src/lesson6/Exp.java",
+    "code/src/lesson6/Mortgages.java"
   ],
   "video": ""
 }
