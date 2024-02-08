@@ -11,3 +11,7 @@
 
 **Задача 2.**
 Оптимизировать метод isWin() используя цикл **for**
+
+**Задача 3.**
+Задание повышенной сложности.
+Используя материал [статьи](https://docs.google.com/document/d/1mVcueY2AZYenjGeWXlpvzQKYg8Ehof2Y_BhOJBldUgE/) избавиться от static в заголовках методов.
