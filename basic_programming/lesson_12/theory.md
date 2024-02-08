@@ -11,3 +11,4 @@
 (англ. last in — first out, «последним пришёл — первым вышел»). Стека сравнивают со стопкой книг: чтобы взять вторую сверху, нужно снять верхнюю.
 
 ![image](https://raw.githubusercontent.com/ait-tr/cohort42.1/main/basic_programming/lesson_12/image/lifo_stack.png)
+![image](https://github.com/ait-tr/cohort42.1/tree/main/basic_programming/lesson_12/image/lifo_stack.png)
