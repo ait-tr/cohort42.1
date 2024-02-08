@@ -2,9 +2,15 @@
 
 **Читать теоретический материал:**
 
-- Простыми словами: [что такое стек и как он устроен](https://skillbox.ru/media/code/prostymi-slovami-chto-takoe-stek-i-kak-on-ustroen/)
-- Что такое [очередь и как её реализовать](https://codechick.io/tutorials/dsa/dsa-queue)
-- Основные [виды сортировок и примеры их реализации](https://education.yandex.ru/journal/osnovnye-vidy-sortirovok-i-primery-ikh-realizatsii)
+1. Роберт Лафоре, Структуры данных и алгоритмы в Java
+   - глава 2. Массивы
+   - глава 3. Простая сортировка
+   - глава 4. Стеки и очереди
+
+2. Статьи
+   - Простыми словами: [что такое стек и как он устроен](https://skillbox.ru/media/code/prostymi-slovami-chto-takoe-stek-i-kak-on-ustroen/)
+   - Что такое [очередь и как её реализовать](https://codechick.io/tutorials/dsa/dsa-queue)
+   - Основные [виды сортировок и примеры их реализации](https://education.yandex.ru/journal/osnovnye-vidy-sortirovok-i-primery-ikh-realizatsii)
 
 ## Задание 2.
 
