@@ -62,3 +62,4 @@
 позволяющий выбирать оптимальный метод в зависимости от конкретной задачи и объема данных.
 
 [Визуализация сортировки выбором](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+[Визуализация сортировок от visualgo.net](https://visualgo.net/en/sorting)
