@@ -54,13 +54,20 @@
 
 ## Основные команды git
 
-`git init` — создание локального репозитория
-`git remote add origin https://github.com/<profile_name>/<repo_name>` — связывание локального репозитория с удалённым
+```git init``` — создание локального репозитория
+
+```git remote add origin https://github.com/<profile_name>/<repo_name>``` — связывание локального репозитория с удалённым
+
 `git pull origin main` — получение файлов удалённого репозитория
 
-Сеанс работы с репозиторием
+**Сеанс работы с репозиторием**
 
 `git clone https://github.com/<profile_name>/<repo_name> <local_dir>` — клонирование удалённого репозитория в локальную папку
+
 `git status` — получение статуса локального репозитория
+
 `git add <file_name>` — добавление файла в систему отслеживания git
+
 `git commit -m "commit_message"` — создает коммит с сообщением
+
+`git push` — синхронизируем локальный репозиторий с удалённым
