@@ -3,7 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/lesson17/Lesson17.java"
+    "code/src/lesson17/Lesson17.java",
+    "code/src/lesson17/Cat.java",
+    "code/src/lesson17/Stack.java"
   ],
   "video": ""
 }
