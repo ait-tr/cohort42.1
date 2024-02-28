@@ -54,3 +54,4 @@
 Статьи:
 - [Обзор модификаторов в Java](https://struchkov.dev/blog/ru/modifiers-in-java/)
 - [Модификаторы static и final в языке Java](https://pro-java.ru/java-dlya-nachinayushhix/modifikatory-static-i-final-v-yazyke-java/)
+- [Все о ключевых словах static и final](https://medium.com/nuances-of-programming/%D0%B2%D1%81%D0%B5-%D0%BE-%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B2%D1%8B%D1%85-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%85-static-%D0%B8-final-b5406478e1f2)
