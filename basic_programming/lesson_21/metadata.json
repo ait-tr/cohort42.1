@@ -5,13 +5,13 @@
   "code": [
     "code/src/main/java/extend/Interpreter.java",
     "code/src/main/java/extend/Variables.java",
-    "code/src/main/java/extend/Calcuate.java",
+    "code/src/main/java/extend/Calculate.java",
     "code/src/main/java/lesson21/Lesson21.java",
     "code/src/main/java/lesson21/Calculator.java",
     "code/src/test/java/lesson21/CalculateTest.java",
     "code/src/test/java/lesson21/CalculatorTest.java",
     "code/src/test/java/lesson21/VariablesTest.java",
-    "code/src/pom.xml"
+    "code/pom.xml"
   ],
   "video": ""
 }
