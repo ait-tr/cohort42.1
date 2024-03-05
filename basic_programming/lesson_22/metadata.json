@@ -3,6 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "code/src/lesson22/Lesson22.java",
+    "code/src/lesson22/Horse.java",
+    "code/src/lesson22/Pegas.java",
+    "code/src/lesson22/Rectangle",
+    "code/src/lesson22/Square",
+    "code/src/lesson22/TriangleRectangle",
+    "code/src/lesson22/Shape2D"
   ],
   "video": ""
 }
