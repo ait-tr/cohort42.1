@@ -3,6 +3,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "code/src/lesson23/Lesson23.java",
+    "code/src/lesson23/Car.java",
+    "code/src/lesson23/CarBody.java",
+    "code/src/lesson23/CarEngine.java",
+    "code/src/lesson23/Invoice.java",
+    "code/src/lesson23/Manager.java",
+    "code/src/lesson23/Product.java",
+    "code/src/lesson23/Student.java",
+    "code/src/lesson23/Teacher.java"
   ],
   "video": ""
 }
