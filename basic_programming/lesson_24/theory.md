@@ -22,7 +22,7 @@
 - [SQL-запросы: базовые команды и примеры](https://sky.pro/media/sql-zaprosy/)
 - [SQL-запросы: основные команды для управления базами данных](https://skillbox.ru/media/code/sqlzaprosy-osnovnye-komandy-dlya-upravleniya-bazami-dannykh/)
 
-### CREATE TABLE
+#### CREATE TABLE
 
 **CREATE TABLE** создаёт новую таблицу в базе данных. Форма запроса:
 ```
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS students (
 );
 ```
 
-### INSERT
+#### INSERT
 
 **INSERT** добавляет новую запись (записи) в таблицу:
 ```
@@ -56,7 +56,7 @@ INSERT INTO students (name, group_name, score)
 VALUES ('Aleksey', 'java_26-27e', 5), ('Viktors', 'java_26-27e', 5);
 ```
 
-### SELECT
+#### SELECT
 
 **SELECT** читает данные из таблицы:
 ```
@@ -70,7 +70,7 @@ SELECT * FROM students WHERE id > 3;
 SELECT group_name FROM students WHERE id = 2;
 ```
 
-### UPDATE
+#### UPDATE
 
 **UPDATE** изменяет данные в таблице:
 ```
@@ -83,7 +83,7 @@ INSERT INTO students (name, group_name, score) VALUES ('Muzaffar', 'basic_41-42e
 UPDATE students SET score=4 WHERE name='Muzaffar';
 ```
 
-### DELETE
+#### DELETE
 
 **DELETE** удаляет данные из таблицы:
 ```
