@@ -2,6 +2,8 @@
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
+    "code/src/main/java/lesson24/Lesson24.java",
+    "code/pom.xml"
   "code": [
   ],
   "video": ""
