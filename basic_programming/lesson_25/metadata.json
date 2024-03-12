@@ -3,7 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/lesson25/Lesson25.java"
+    "code/src/lesson25/Lesson25.java",
+    "code/src/lesson25/Animal.java",
+    "code/src/lesson25/Cat.java",
+    "code/src/lesson25/Dog.java",
+    "code/src/lesson25/Hen.java"
   ],
   "video": ""
 }
