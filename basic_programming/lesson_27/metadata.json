@@ -3,7 +3,18 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/lesson27/Lesson27.java"
+    "code/src/lesson27/Lesson27.java",
+    "code/src/lesson27/Figure.java",
+    "code/src/lesson27/Circle.java",
+    "code/src/lesson27/Rectangle.java",
+    "code/src/lesson27/Triangle.java",
+    "code/src/lesson27/Runable.java",
+    "code/src/lesson27/Flyable.java",
+    "code/src/lesson27/Swimable.java",
+    "code/src/lesson27/Jumpable.java",
+    "code/src/lesson27/CatAction.java",
+    "code/src/lesson27/Cat.java",
+    "code/src/lesson27/Duck.java"
   ],
   "video": ""
 }
