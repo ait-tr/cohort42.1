@@ -10,7 +10,12 @@
    - главы 4,6,7
 4. Кей Хорстманн, Core Java, Том 1. Основы (10 издание)
    - глава 4,5
+5. Статья
+   - [Вложенные внутренние классы или Inner Class в Java](https://javarush.com/groups/posts/2181-vlozhennihe-vnutrennie-klassih)
+
 
 ## Задание 2.
 
 **Задача 1.**
+Прочитать статью [Вложенные внутренние классы или Inner Class в Java](https://javarush.com/groups/posts/2181-vlozhennihe-vnutrennie-klassih)
+отработать код из неё.
