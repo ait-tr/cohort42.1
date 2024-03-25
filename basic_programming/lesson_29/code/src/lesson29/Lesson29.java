@@ -1,7 +1,5 @@
 package lesson29;
 
-import org.w3c.dom.Node;
-
 /**
  * AIT-TR, cohort 42.1, Java Basic, Lesson #29
  *
