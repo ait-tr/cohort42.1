@@ -5,7 +5,7 @@ package lesson30;
  *
  * @version 22-Mar-24
  */
-public class Lesson29 {
+public class Lesson30 {
     public static void main(String[] args) {
     }
 }
