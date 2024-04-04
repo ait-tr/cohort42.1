@@ -3,7 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/lesson33/Lesson33.java"
+    "code/src/lesson33/Lesson33.java",
+    "code/src/lesson33/RubberArray.java"
   ],
   "video": ""
 }
