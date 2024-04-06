@@ -3,7 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/src/lesson34/Lesson34.java"
+    "code/src/lesson34/Lesson34.java",
+    "code/src/lesson34/Person.java",
+    "code/src/lesson34/AgeComparator.java",
+    "code/src/lesson34/NameAgeComparator.java"
   ],
   "video": ""
 }
