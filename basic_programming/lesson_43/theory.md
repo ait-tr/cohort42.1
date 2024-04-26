@@ -10,7 +10,7 @@
 
 - **`Error`**: Этот класс представляет серьёзные ошибки, которые обычно связаны с работой виртуальной машины Java, и их не предполагается обрабатывать в обычных приложениях. Примеры включают `OutOfMemoryError`, `StackOverflowError`.
 
-<img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_43/img/Exeptions.jpeg" width="100%">
+<img src="https://raw.githubusercontent.com/ait-tr/cohort42.1/main/basic_programming/lesson_43/img/Exeptions.jpeg" width="100%">
 
 
 В Java исключения делятся на две основные категории:
