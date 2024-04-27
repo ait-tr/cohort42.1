@@ -12,7 +12,6 @@
 
 <img src="https://raw.githubusercontent.com/ait-tr/cohort42.1/main/basic_programming/lesson_43/img/Exeptions.jpeg" width="100%">
 
-
 В Java исключения делятся на две основные категории:
 
 1. **Проверяемые исключения (Checked Exceptions)**: Эти исключения должны быть явно обработаны в программе. Компилятор Java проверяет, правильно ли обработаны эти исключения, и если нет, он выдаёт ошибку компиляции. Примеры включают `IOException`, `SQLException`.
