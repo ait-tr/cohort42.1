@@ -20,18 +20,18 @@
 ### LocalDate
 `LocalDate` - представляет дату (год, месяц, день) без времени и часового пояса. Основные методы:
 
-    - `now()` - возвращает текущую дату.
-    - `of(int year, int month, int dayOfMonth)` - создает экземпляр `LocalDate` с указанными годом, месяцем и днем.
-    - `parse(CharSequence text)` - создает экземпляр `LocalDate` из строки в формате ISO-8601 (например, "2000-01-01").
-    - `plusDays(long days)` - добавляет указанное количество дней к дате.
-    - `minusDays(long days)` - вычитает указанное количество дней из даты.
-    - `getYear()`, `getMonth()`, `getDayOfMonth()` - возвращают год, месяц и день соответственно.
+- `now()` - возвращает текущую дату.
+- `of(int year, int month, int dayOfMonth)` - создает экземпляр `LocalDate` с указанными годом, месяцем и днем.
+- `parse(CharSequence text)` - создает экземпляр `LocalDate` из строки в формате ISO-8601 (например, "2000-01-01").
+- `plusDays(long days)` - добавляет указанное количество дней к дате.
+- `minusDays(long days)` - вычитает указанное количество дней из даты.
+- `getYear()`, `getMonth()`, `getDayOfMonth()` - возвращают год, месяц и день соответственно.
 
 #### Создание объекта:
-  ```
-  LocalDate date = LocalDate.now();  // Текущая дата
-  LocalDate specificDate = LocalDate.of(2023, Month.MAY, 15);  // Определенная дата
-  ```
+```
+LocalDate date = LocalDate.now();  // Текущая дата
+LocalDate specificDate = LocalDate.of(2023, Month.MAY, 15);  // Определенная дата
+```
 
 ### LocalTime
 `LocalTime` - представляет время (часы, минуты, секунды и наносекунды) без даты и часового пояса. Основные методы:
@@ -80,7 +80,6 @@ LocalTime timeYesterday2 = timeNow.minus(24, ChronoUnit.HOURS);
 ##### Пример использования `isAfter`:
 
 ```
-
 public class Main {
     public static void main(String[] args) {
         LocalDate date1 = LocalDate.of(2023, 10, 25);
@@ -197,9 +196,9 @@ public class Main {
 ### Period
 `Period` - представляет период времени в годах, месяцах и днях. Основные методы:
 
-    - `of(int years, int months, int days)` - создают экземпляр `Period` с указанным количеством лет, месяцев и дней.
-    - `plus(Period period)`, `minus(Period period)` - добавляют или вычитают указанный период времени.
-    - `getYears()`, `getMonths()`, `getDays()` - возвращают количество
+- `of(int years, int months, int days)` - создают экземпляр `Period` с указанным количеством лет, месяцев и дней.
+- `plus(Period period)`, `minus(Period period)` - добавляют или вычитают указанный период времени.
+- `getYears()`, `getMonths()`, `getDays()` - возвращают количество
 
 ```
 LocalDate startDate = LocalDate.of(2022, Month.JANUARY, 1);
