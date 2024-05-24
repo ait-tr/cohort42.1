@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+
+<body style="">
+    <h1 style="text-align: left;">Анкета</h1>
+    <form accept="https://amazon.de/api/l" method="post">
+        <table border="0" style="">
+            <tr>
+                <td>
+                    <label for="name">Введите свое имя: </label>
+                </td>
+                <td>
+                    <input id="name" type="text" placeholder="имя" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="surname">Введите свою фамилию: </label>
+                </td>
+                <td>
+                    <input id="surname" type="text" placeholder="фамилия" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Введите свой возраст: </label>
+                </td>
+                <td>
+                    <input id="age" type="number" placeholder="возраст">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Введите пароль: </label>
+                </td>
+                <td>
+                    <input id="password" type="password" placeholder="пароль" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Дата рождения: </label>
+                </td>
+                <td>
+                    <input type="date" id="date" placeholder="Дата рождения">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Укажите свой пол: </label>
+                </td>
+                <td>
+                    <label for="male">M</label>
+                    <input id="male" type="radio" name="gender">
+                    <label for="female">F</label>
+                    <input id="female" type="radio" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="reading">Любите ли Вы читать?</label>
+                </td>
+                <td>
+                    <input id="reading" type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pets">Есть ли у вас дамашние животные?</label>
+                </td>
+                <td>
+                    <input id="pets" type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dropdown">Выберите Вариант ответа: </label>
+                </td>
+                <td>
+                    <select name="" id="dropdown">
+                        <option value="">...выбрать...</option>
+                        <option value="">Вариант 1</option>
+                        <option value="">Вариант 2</option>
+                        <option value="">Вариант 3</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="range">Оцените нас: </label>
+                </td>
+                <td>
+                    <input id="range" type="range" min="1" max="10">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="1">
+                    <label for="">Введите Ваш комментарий: </label>
+                    <br>
+                    <textarea name="" id="" placeholder="комментарий" rows="3" cols="55"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">отправить</button>
+                </td>
+                <td>
+                    <button type="reset">отчистить</button>
+                </td>
+            </tr>
+
+
+            <label for="">ВВедите Ваш комментарий:</label>
+        </table>
+    </form>
+</body>
+
+</html>
