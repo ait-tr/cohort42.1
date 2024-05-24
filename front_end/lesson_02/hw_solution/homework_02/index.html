@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-color:azure;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select, button {
+            padding: 10px;
+            border: 1px solid gainsboro;
+            border-radius: 4px;
+        }
+        button[type="submit"] {
+            background-color:forestgreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button[type="reset"] {
+            background-color:crimson;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="https://www.amazon.com/s" method="get">
+            <label for="search">What are you searching for?</label>
+            <input id="search" type="text" name="k" placeholder="Search on Amazon">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <form method="get">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Enter your name:</label>
+                    </td>
+                    <td>
+                        <input id="name" type="text" placeholder="your name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">Enter your age:</label>
+                    </td>
+                    <td>
+                        <input id="age" type="number" placeholder="your age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Enter date of birth:</label>
+                    </td>
+                    <td>
+                        <input id="date" type="date" placeholder="your birthday" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sex">Your gender:</label>
+                    </td>
+                    <td>
+                        <select id="sex" required>
+                            <option value="">Select</option>
+                            <option value="man">Man</option>
+                            <option value="woman">Woman</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
