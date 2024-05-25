@@ -1,0 +1,101 @@
+* {
+    margin: 250;
+    padding: 250;
+
+}
+
+.about {
+    background-color: black;
+
+}
+
+header {
+    background-color: red;
+    height: 100px;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    color: white;
+}
+
+
+
+main {
+    background-color: blue;
+    font-size: 18px;
+    height: 300px;
+    color: white;
+
+
+}
+
+footer {
+    background-color: green;
+    font-size: 18px;
+    height: 100px;
+    color: white;
+}
+
+.merkur {
+    position: relative;
+    top: auto;
+    size: 100px;
+
+}
+
+.erde {
+    position: relative;
+    top: auto;
+
+
+}
+
+.mars {
+    position: relative;
+    top: auto;
+    left: 500px;
+
+}
+
+.jupiter {
+    position: relative;
+    top: auto;
+
+}
+
+.saturn {
+    position: relative;
+    top: auto;
+    left: 500px;
+
+}
+
+.uranus {
+    position: relative;
+    top: auto;
+
+
+}
+
+.neptun {
+    position: relative;
+    top: 100px;
+    left: 500px;
+
+}
+
+.venus {
+    position: relative;
+    top: auto;
+    left: 500px;
+
+}
+
+.flaggen {
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
