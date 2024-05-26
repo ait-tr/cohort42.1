@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.a01 { 
+    background-color:lightsalmon;
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+
+.a02 {
+background-color: rgb(184, 128, 173);
+text-align: center;
+padding: 100px;
+margin-top: 5px;
+margin-bottom: 5px;
+color: white;
+height: 400px;
+
+}
