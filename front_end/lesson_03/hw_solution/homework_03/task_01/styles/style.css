@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.text, .main, .footer {
+    font-size: 18px;
+    color: white;
+}
+
+.header {
+    background-color: red;
+    height: 100px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.main {
+    background-color: blue;
+    height: 300px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: green;
+    height: 100px;
+    text-align: center;
+}
