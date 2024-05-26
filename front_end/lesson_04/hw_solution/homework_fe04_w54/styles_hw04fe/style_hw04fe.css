@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.a01 { 
+    background-color:lightsalmon;
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+
+.a02 {
+background-color: rgb(184, 128, 173);
+text-align: center;
+padding: 100px;
+margin-top: 5px;
+margin-bottom: 5px;
+color: white;
+height: 400px;
+
+}
+.a03 {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 100px 100px;
+    cursor: pointer;
+    border-radius: 12px; 
+    box-shadow: 0 4px gray; 
+
+}
+
+.a03:active {
+    transform: translateY(10px);
+    /* transform: translate3d(10px); -->Не пойму что изменилось на кнопке, пробовал но разницы не вижу */
+    /* transform: translateX(10px); */
+    /* transform: translateZ(10px); */
+
+    
+}
+.a03:hover {
+    background-color: green;
+}
+.box01 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
