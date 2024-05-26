@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://amayon.de/api/1>" method="post">
+        <table>
+            <tr>
+                <td>Введите свое имя:</td>
+                <br />
+                <td><input id="name" type="text" placeholder="Здесь должно быть ваше имя" required></td>
+                <br>
+            </tr>
+            <tr>
+                <td>Введите ваш возраст:</td>
+                <td><input id="age" type="number"></td>
+            </tr>
+            <tr>
+                <td>Введите пароль:</td>
+                <td><input id="pass" type="password"></td>
+            </tr>
+            <tr>
+                <td>Дата рождения:</td>
+                <td><input id="date" type="date"></td>
+            </tr>
+            <tr>
+                <td> Укажите ваш пол:</td>
+                <td><label for="male">M</label><input id="male" type="radio" name="gender">
+                    <label for="female">Ж</label><input id="female" type="radio" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td>Любите ли вы читать?</td>
+                <td><input id="reading" type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Есть ли у вас домашние животные?</td>
+                <td><input id="reading" type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Введите ваш комментарий:</td>
+                <td><textarea rows="10" placeholder="сюда"></textarea></td>
+            </tr>
+            <tr>
+                <td>Оцените нас:</td>
+                <td><input type="range" min="1" max="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Выберите вариант:</td>
+                <td>
+                    <select>
+                        <option>Вариант 1</option>
+                        <option>Вариант 2</option></textarea>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Выберите вариант:</td>
+                <td>
+                    <select>
+                        <option><button type="submit">Отправить</button></option>
+                    </select>
+                    <select>
+                        <option><button type="reset">Очистить</button> </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
