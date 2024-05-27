@@ -1,0 +1,56 @@
+
+body {
+	background-color: #fff;
+	text-align: center;
+}
+
+h1 {
+	font-size:24px;
+	color: white;
+}
+
+.header{
+	background-color: red;
+	height: 100px;
+}
+
+.main {
+	background-color: blue;
+	font-size: 18px;
+	height: 300px;
+	color: white;
+}
+
+.footer{
+	background-color: green;
+	font-size: 18px;
+	height: 100px;
+	color: white;
+}
+
+/*
+p {
+
+} 
+
+header {
+
+}
+
+main{
+
+}
+
+article {
+
+}
+.content {
+
+}
+
+footer {
+
+}
+*/
+
+
