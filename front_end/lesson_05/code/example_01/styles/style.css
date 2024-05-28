@@ -1,0 +1,39 @@
+.block1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+.block2 {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    z-index: -1;
+}
+.block3 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    right: 75px;
+    top: -25px;
+}
+.block4 {
+    width: 200px;
+    min-height: 200px;
+    background-color: brown;
+    position: relative;
+    overflow: hidden;
+}
+
+.block5 {
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
