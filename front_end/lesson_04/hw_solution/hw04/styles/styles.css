@@ -1,0 +1,49 @@
+h1 {
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(192, 142, 143);
+    height: 150px;
+    margin: 0px;
+}
+
+main {
+    background-color: rgb(180, 142, 191);
+    height: calc(100vh - 300px);
+    margin: 0px;
+}
+
+footer {
+    background-color: rgb(192, 142, 143);
+    height: 150px;
+    margin: 0px;
+}
+
+.header-text {
+    text-align: center;
+    padding-top: 63px;
+}
+
+.main-text {
+    text-align: center;
+    padding-top: calc((100vh - 300px)/2);
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 63px;
+}
+
+
+p {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+
+
