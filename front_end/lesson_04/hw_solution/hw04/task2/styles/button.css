@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(33, 37, 41);
+    text-align: center;
+}
+
+.button {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgb(12, 110, 253);
+    display: inline-block;
+}
+
+span {
+    color: white;
+    text-align: center;
+    font-family: 'Arial Narrow';
+    /* font-size: ; */
+}
