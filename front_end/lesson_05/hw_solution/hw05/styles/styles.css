@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gradient-block {
+    margin: 10px;
+    /* background: linear-gradient(#fff 55%, #000, #000); */
+    background: linear-gradient(#fff 53%, #000 90%);
+    height: calc(100vh - 30px);
+    border: solid 5px #000;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.text-block {
+    background-color: yellow;
+    position: absolute;
+    right: 0px;
+    padding: 5px;
+}
+
+.text-block p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
