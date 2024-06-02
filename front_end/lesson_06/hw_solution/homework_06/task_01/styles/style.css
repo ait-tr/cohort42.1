@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vh;
+    gap: 10px;
+    padding: 5px;
+}
+
+.block {
+    height: 300px;
+    min-width: 35%;
+    margin: 5px;
+}
+
+.block_red {
+    background-color: red;
+}
+
+.block_green {
+    background-color: green;
+}
+
+.block_blue {
+    background-color: blue;
+}
+
+.block_yellow {
+    background-color: yellow;
+}
+
+.block_black {
+    background-color: black;
+}
