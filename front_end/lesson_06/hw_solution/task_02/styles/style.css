@@ -1,0 +1,92 @@
+.f {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vh;
+    border: solid 3px black;
+    border-radius: 15px;
+    margin-left: 25px;
+    padding: 5px;
+    gap: 5px;
+}
+
+.header,
+.nav,
+.footer,
+.section,
+.article,
+.aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.header {
+    height: 100px;
+    background-color: lightblue;
+    font-size: 24px;
+}
+
+.nav {
+    height: 50px;
+    background-color: lightpink;
+    font-size: 18px;
+}
+
+.footer {
+    height: 100px;
+    background-color: lightskyblue;
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 0;
+    gap: 5px;
+    margin-right: 5px;
+    width: 70%;
+}
+
+.section,
+.article,
+.aside {
+    padding: 5px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.section {
+    background-color: rgb(212, 240, 167);
+}
+
+.article {
+    background-color: rgb(234, 193, 235);
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.aside {
+    align-items: stretch;
+    background-color: lightseagreen;
+    vertical-align: top;
+    min-width: 30%;
+}
