@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.block {
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.block1 {
+    background: url("../images/11.webp");
+
+}
+.block2 {
+    background: url("../images/club.webp");
+
+}
+.block3 {
+    background: url("../images/forest.webp");
+
+}
+.block4 {
+    background: url("../images/ghost.webp");
+
+}
+.block5 {
+    background: url("../images/greenmile.webp");
+
+}
+.block6 {
+    background: url("../images/shawshank.webp");
+
+}
