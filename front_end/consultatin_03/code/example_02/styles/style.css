@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    border: 1px solid green;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(white, 20%, black);
+}
+
+.block2 {
+    border: 1px solid green;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(white, 60%, black);
+}
+
+.parent {
+    display: flex;
+}
